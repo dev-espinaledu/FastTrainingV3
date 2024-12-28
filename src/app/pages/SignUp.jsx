@@ -1,9 +1,12 @@
-import { Link, useLocation } from "react-router-dom";
-import PrimaryButton from "../components/PrimaryButton";
+'use client';
+
+import Link from "next/link";
+import { useRouter } from 'next/navigation';
+import PrimaryButton from "../components/PrimaryButton.jsx";
 import PlatformsButton from '../components/PlatformsButton';
 
 const SignUp = () => {
-    const location = useLocation();
+    const location = useRouter();
 
     return (
             <>
@@ -12,7 +15,7 @@ const SignUp = () => {
                     </section>
                     <section className="bg-white w-1/2 h-full flex justify-center">
                         <section className="flex flex-col w-2/3 p-12">
-                            <Link className="text-3xl self-start" to="/"><i  className="fa-solid fa-angle-left"></i></Link>
+                            <Link className="text-3xl self-start" href="/"><i  className="fa-solid fa-angle-left"></i></Link>
                             <h1 className='text-3xl font-bold'>Registrarse</h1>
                             <form className="flex flex-col p-4">
                                 <div className="mt-4 flex flex-col self-center w-full">
@@ -28,14 +31,14 @@ const SignUp = () => {
                                     <input className="w-full mb-2 bg-zinc-200 p-2 rounded-lg" type="password" name="check-password" id="check-password" placeholder='Confirma tu Contraseña' />
                                 </div>
                                 <div>
-                                    <Link to={"/eleccionRol"}>
-                                        <PrimaryButton clases="w-full " text="Registrarse" />
+                                    <Link href={"/eleccionRol"}>
+                                        <PlatformsButton clases="w-full " text="Registrarse" />
                                     </Link>
                                 </div>
                             </form>
                             <section className="flex justify-between text-sm px-4">
                                 <p>¿Ya tienes una cuenta?</p>
-                                <Link className="text-sky-500" to={"/eleccionRol"} state={{ background: location }}>Iniciar Sesión</Link>
+                                <Link className="text-sky-500" href={"/eleccionRol"} state={{ background: location }}>Iniciar Sesión</Link>
                             </section>
                             
                             {/* Seccion para iniciar sesion con otras plataformas */}

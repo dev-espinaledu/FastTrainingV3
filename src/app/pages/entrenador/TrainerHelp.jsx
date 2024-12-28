@@ -1,5 +1,5 @@
 import HeaderApp from '../../components/HeaderApp';
-import NavbarTrainer from '../../components/Navbar/NavbarTrainer';
+import NavbarTrainer from '../../components/entrenador/NavbarTrainer';
 import PrimaryButton from '../../components/PrimaryButton';
 import SecondaryButton from '../../components/SecondaryButton';
 

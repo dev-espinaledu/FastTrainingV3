@@ -1,6 +1,6 @@
-import Info from '../../components/perfilJugador/cuadro5'
-import Configuracion from '../../components/configuracionJugador/cuadro6'
-import NavbarPlayer from '../../components/Navbar/NavbarJugador'
+import Info from '../../components/jugador/PerfilJugador'
+import Configuracion from '../../components/jugador/ConfiguracionJugador'
+import NavbarPlayer from '../../components/jugador/NavbarJugador'
 import HeaderApp from '../../components/HeaderApp'
 
 export default function ConfiguracionPlayer(){

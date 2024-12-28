@@ -1,4 +1,4 @@
-import NavbarTrainer from '../../components/Navbar/NavbarTrainer';
+import NavbarTrainer from '../../components/entrenador/NavbarTrainer';
 import HeaderApp from '../../components/HeaderApp'
 
 function DashboardTrainer() {

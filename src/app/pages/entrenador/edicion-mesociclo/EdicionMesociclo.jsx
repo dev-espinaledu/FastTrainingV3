@@ -1,8 +1,9 @@
-import Tabla  from '../../../components/mesociclo/Mesociclo';
-import NavbarEdicion from '../../../components/Navbar/NavbarEdicion';
-import HeaderApp from '../../../components/HeaderApp';
+/* import Tabla  from '../../../components/mesociclo/Mesociclo'; */
+import NavbarEdicion from '../../../components/comunes/NavbarEdicion';
+
+/* import HeaderApp from '../../../components/HeaderApp'; */
 import Logo from '../../../components/Logo';
-import NavbarTrainer from '../../../components/Navbar/NavbarTrainer';
+import NavbarTrainer from '../../../components/entrenador/NavbarTrainer';
 
 export default function EdicionMesociclo(){
     return(

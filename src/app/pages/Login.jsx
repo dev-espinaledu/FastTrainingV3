@@ -1,6 +1,8 @@
-import { Route, Routes, Link } from "react-router-dom";
+import Link  from "next/link";
 import PrimaryButton from "../components/PrimaryButton";
 import PlatformsButton from '../components/PlatformsButton';
+
+
 
 const Login = () => {
     return (
@@ -10,7 +12,7 @@ const Login = () => {
                     </section>
                     <section className="bg-white w-1/2 h-full flex justify-center">
                         <section className="flex flex-col w-2/3 p-12">
-                            <Link className="text-3xl self-start" to="/"><i  className="fa-solid fa-angle-left"></i></Link>
+                            <Link className="text-3xl self-start" href="/"><i  className="fa-solid fa-angle-left"></i></Link>
                             <h1 className='text-3xl font-bold'>Inicio de Sesión</h1>
                             <form className="flex flex-col p-4">
                                 <div className="mt-4 flex flex-col self-center w-full">
@@ -20,17 +22,17 @@ const Login = () => {
                                 <div className=" flex flex-col self-center w-full">
                                     <label className="self-start text-zinc-800" htmlFor="password">Contraseña</label>
                                     <input className="w-full mb-1 bg-zinc-200 p-2 rounded-lg" type="password" name="password" id="password" placeholder='Contraseña' />
-                                    <Link className="text-right text-sky-500 text-xs" to="/recoverPass">¿Olvidaste tu contraseña?</Link>
+                                    <Link className="text-right text-sky-500 text-xs" href="/recoverPass">¿Olvidaste tu contraseña?</Link>
                                 </div>
                                 <div>
-                                    <Link to={"/trainer/home"}>
+                                    <Link href={"/trainer/home"}>
                                         <PrimaryButton clases="w-full" text="Iniciar Sesión" />
                                     </Link>
                                 </div>
                             </form>
                             <section className="flex justify-between text-sm px-4">
                                 <p>¿No tienes una cuenta?</p>
-                                <Link className="text-sky-500" to="/register">Registrate</Link>
+                                <Link className="text-sky-500" href="/register">Registrate</Link>
                             </section>
                             
                             {/* Seccion para iniciar sesion con otras plataformas */}
@@ -42,8 +44,7 @@ const Login = () => {
                         </section>
                     </section>
                 </section>
-            </>
+            </>                           
     )
 }
-
 export default Login;

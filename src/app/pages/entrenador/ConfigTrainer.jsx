@@ -1,6 +1,6 @@
-import Info from '../../components/perfilEntrenador/cuadro3'
-import Configuracion from '../../components/configuracionEntrenador/cuadro4'
-import NavbarTrainer from '../../components/Navbar/NavbarTrainer'
+import Info from '../../components/entrenador/PerfilEntrenador'
+import Configuracion from '../../components/entrenador/configuracionEntrenador'
+import NavbarTrainer from '../../components/entrenador/NavbarTrainer'
 import HeaderApp from '../../components/HeaderApp'
 
 export default function ConfigurationTrainer(){

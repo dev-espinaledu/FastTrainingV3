@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link  from 'next/link';
 
 function MainLanding() {
     return (
@@ -10,7 +10,7 @@ function MainLanding() {
                         <h2 className='text-5xl font-black w-1/2 mb-4'>Revoluciona tus entrenamientos de fútbol</h2>
                         <p className='text-2xl w-2/3'>Planifica, administra y visualiza el progreso de tu equipo con estadísticas detalladas, todo desde una sola aplicación.</p>
 
-                        <Link to="/register"><button className='border text-2xl font-normal py-2 px-4  mt-4'>Registrarse</button></Link>
+                        <Link href="/register"><button className='border text-2xl font-normal py-2 px-4  mt-4'>Registrarse</button></Link>
                     </section>
                 </div>
             </section>

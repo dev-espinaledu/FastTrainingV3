@@ -1,4 +1,4 @@
-import NavbarJugador from "../../components/Navbar/NavbarJugador";
+import NavbarJugador from "../../components/jugador/NavbarJugador";
 import HeaderApp from "../../components/HeaderApp";
 
 function DashboardJugador() {

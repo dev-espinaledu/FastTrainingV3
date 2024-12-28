@@ -1,5 +1,5 @@
 import HeaderApp from '../../components/HeaderApp';
-import NavbarJugador from '../../components/Navbar/NavbarJugador';
+import NavbarJugador from '../../components/jugador/NavbarJugador';
 import SecondaryButton from '../../components/SecondaryButton';
 import PrimaryButton from '../../components/PrimaryButton';
 

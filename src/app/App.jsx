@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router,  Route, Routes, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router,  Route, Routes, useLocation } from 'next/link';
 import LandingPage from './pages/LandingPage';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';

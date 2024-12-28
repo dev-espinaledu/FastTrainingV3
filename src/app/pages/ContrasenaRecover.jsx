@@ -5,7 +5,7 @@ function ContrasenaRecover() {
     return(
         <>
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full fixed inset-x-1/3 z-10">
-      <Link to='/'>
+      <Link href='/'>
         <button className="text-left mb-4 focus:outline-none w-full">
           <svg
             className="w-6 h-6 text-black"
@@ -41,7 +41,7 @@ function ContrasenaRecover() {
             />
             
           </div>
-          <Link to="/recoverPass2">
+          <Link href="/recoverPass2">
             <button
               type="submit"
               className=" bg-naranja text-white py-3 px-4 w-full hover:bg-naranja text-lg mb-2"

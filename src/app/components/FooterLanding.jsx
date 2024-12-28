@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link  from 'next/link';
 
 function FooterLanding() {
     return (
@@ -11,15 +11,15 @@ function FooterLanding() {
             <section>
                 <ul className='flex text-4xl gap-1'>
                     <li>
-                        <Link><i class="fa-brands fa-square-facebook"></i></Link>
+                        <Link href="/"><i class="fa-brands fa-square-facebook"></i></Link>
                     </li>
                     <li>
-                        <Link>
-                            <i class="fa-brands     fa-square-instagram"></i>
+                        <Link href="/">
+                            <i class="fa-brands fa-square-instagram"></i>
                         </Link>
                     </li>
                     <li>
-                        <Link>
+                        <Link href="/">
                             <i class="fa-brands fa-square-x-twitter"></i>  
                         </Link>
                     </li>
@@ -29,7 +29,7 @@ function FooterLanding() {
             <section className='text-zinc-500 font-bold text-left'>
                 <h3>Contáctanos:</h3>
                 <p>+57 312 345 6789</p>
-                <p>fast@training.com</p>
+                <p>fast@training.com</p> 
             </section>
         </section>
         <p className='text-zinc-500 text-sm'>&copy; 2024 Mi Landing Page. Todos los derechos reservados.</p>

@@ -1,8 +1,7 @@
 import PrimaryButton from "../../components/PrimaryButton";
 import SecondaryButton from "../../components/SecondaryButton";
 import InputForm from "../../components/InputForm";
-import { useState } from 'react';
-import NavbarTrainer from '../../components/Navbar/NavbarTrainer';
+import NavbarTrainer from '../../components/entrenador/NavbarTrainer';
 import HeaderApp from "../../components/HeaderApp";
 
 const CreacionEquipo = () => {
@@ -48,7 +47,7 @@ const CreacionEquipo = () => {
 
                             <InputForm labelText="Descripción del equipo" placeholder="Descripción del equipo" />
 
-                            <SecondaryButton text="Generar Link de invitación" />
+                            <SecondaryButton text="Generar link de invitación" />
 
                             <PrimaryButton text="Crear Equipo" />
                         </section>

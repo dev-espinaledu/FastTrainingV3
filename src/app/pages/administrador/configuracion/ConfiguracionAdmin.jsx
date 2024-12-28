@@ -1,6 +1,6 @@
-import Info from '../../../components/Perfiladministrador/cuadro1'
-import Configuracion from '../../../components/configuraciónAdministrador/cuadro2'
-import NavbarAdmin from '../../../components/Navbar/NavbarAdmin'
+/* import Info from '../../../components/Perfiladministrador/cuadro1' */
+/* import Configuracion from '../../../components/configuraciónAdministrador/cuadro2' */
+import NavbarAdmin from '../../../components/administrador/NavbarAdmin'
 import Logo from '../../../components/Logo'
 
 export default function ConfiguracionTrainer(){
