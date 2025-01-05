@@ -11,16 +11,16 @@ function FooterLanding() {
             <section>
                 <ul className='flex text-4xl gap-1'>
                     <li>
-                        <Link href="/"><i class="fa-brands fa-square-facebook"></i></Link>
+                        <Link href="/"><i className="fa-brands fa-square-facebook"></i></Link>
                     </li>
                     <li>
                         <Link href="/">
-                            <i class="fa-brands fa-square-instagram"></i>
+                            <i className="fa-brands fa-square-instagram"></i>
                         </Link>
                     </li>
                     <li>
                         <Link href="/">
-                            <i class="fa-brands fa-square-x-twitter"></i>  
+                            <i className="fa-brands fa-square-x-twitter"></i>  
                         </Link>
                     </li>
                 </ul>

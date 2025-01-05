@@ -21,7 +21,7 @@ const FormInput = ({ label }) => {
         className="absolute inset-y-0 right-3 flex items-center cursor-pointer top-8"
         onClick={toggleShowPassword}
       >
-        <i class="fa-solid fa-eye text-gray-600"></i>
+        <i className="fa-solid fa-eye text-gray-600"></i>
       </span>
     </div>
   );
