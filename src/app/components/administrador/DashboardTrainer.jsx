@@ -13,11 +13,11 @@ function DashboardT() {
                 <section className="flex flex-col gap-10">
                     <section className="mb-10">
                         <h2 className="mb-2 text-black">Estadísticas de defensores mes de Noviembre</h2>
-                        <img src="./public/estadistica1.png" alt="Estadísticas de defensores mes de Noviembre" className="w-full max-w-[600px] mx-auto border border-gray-300 rounded-lg" />
+                        <img src="/img/estadistica1.png" alt="Estadísticas de defensores mes de Noviembre" className="w-full max-w-[600px] mx-auto border border-gray-300 rounded-lg" />
                     </section>
                     <section className="mb-10">
                         <h2 className="mb-2 text-black">Estadísticas de arqueros mes de Noviembre</h2>
-                        <img src="./public/estadistica2.png" alt="Estadísticas de arqueros mes de Noviembre" className="w-full max-w-[600px] mx-auto border border-gray-300 rounded-lg" />
+                        <img src="/img/estadistica2.png" alt="Estadísticas de arqueros mes de Noviembre" className="w-full max-w-[600px] mx-auto border border-gray-300 rounded-lg" />
                     </section>
                 </section>
             </article>

@@ -22,7 +22,7 @@ function HeaderLanding() {
                 {/* Usa Link de Next.js para navegación interna */}
                 <Link className="text-zinc-50 mx-4 hover:text-gray-300 font-bold" href="/login/">Iniciar Sesión</Link>
                 <Link className="text-zinc-50 mx-4 hover:text-gray-300 font-bold" href="/register">Regístrate</Link>
-            </div>
+            </div> 
         </header>
     );
 }

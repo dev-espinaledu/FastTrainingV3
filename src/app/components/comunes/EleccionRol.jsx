@@ -33,14 +33,14 @@ function EleccionRol() {
                         onClick={() => handleRoleSelect("trainer")}
                         className={`flex flex-col items-center p-5 mx-3 ${selectedRole === "trainer" ? "bg-orange-600 text-white" : "bg-gray-300 text-black"} transition duration-300 hover:bg-orange-600`}
                     >
-                        <img src="./public/entrenador.png" alt="Entrenador" className="mb-2" />
+                        <img src="/img/entrenador.png" alt="Entrenador" className="mb-2" />
                         <p className="m-0 text-lg font-bold">Entrenador</p>
                     </button>
                     <button
                         onClick={() => handleRoleSelect("player")}
                         className={`flex flex-col items-center p-5 mx-3 ${selectedRole === "player" ? "bg-orange-600 text-white" : "bg-gray-300 text-black"} transition duration-300 hover:bg-orange-600`}
                     >
-                        <img src="./public/jugador.png" alt="Jugador" className="mb-2" />
+                        <img src="/img/jugador.png" alt="Jugador" className="mb-2" />
                         <p className="m-0 text-lg font-bold">Jugador</p>
                     </button>
                 </section>

@@ -8,7 +8,7 @@ const Login = () => {
     return (
             <>
                 <section className='flex items-center h-screen w-screen fixed z-10'>
-                    <section className='w-1/2 h-full bg-cover bg-center' style={{backgroundImage:'url("/public/login-img.jpeg")'}}>
+                    <section className='w-1/2 h-full bg-cover bg-center' style={{backgroundImage:'url("/img/login-img.jpeg")'}}>
                     </section>
                     <section className="bg-white w-1/2 h-full flex justify-center">
                         <section className="flex flex-col w-2/3 p-12">

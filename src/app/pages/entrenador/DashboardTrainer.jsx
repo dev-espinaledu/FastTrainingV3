@@ -13,25 +13,25 @@ function DashboardTrainer() {
                         <section id='group-stats-def' className='flex flex-col gap-4 w-2/5 items-center mt-4' >
                             <h2 className='text-xl font-bold'>Estadísticas defensores del mes de enero</h2>
                             <figure className='h-72'>
-                                <img className='h-full' src="/public/stats-def.png" alt="Estadisticas" />
+                                <img className='h-full' src="/img/stats-def.png" alt="Estadisticas" />
                             </figure>
                         </section>
                         <section className='flex flex-col gap-4 w-2/5 items-center mt-4'>
                             <h2 className='text-xl font-bold'>Estadísticas arqueros del mes de enero</h2>
                             <figure className='h-72'>
-                                <img className='h-full' src="/public/stats-def.png" alt="Estadisticas" />
+                                <img className='h-full' src="/img/stats-def.png" alt="Estadisticas" />
                             </figure>
                         </section>
                         <section id='group-stats-def' className='flex flex-col gap-4 w-2/5 items-center mt-4' >
                             <h2 className='text-xl font-bold'>Estadísticas delanteros del mes de enero</h2>
                             <figure className='h-72'>
-                                <img className='h-full' src="/public/stats-def.png" alt="Estadisticas" />
+                                <img className='h-full' src="/img/stats-def.png" alt="Estadisticas" />
                             </figure>
                         </section>
                         <section className='flex flex-col gap-4 w-2/5 items-center mt-4'>
                             <h2 className='text-xl font-bold'>Estadísticas mediocampistas del mes de enero</h2>
                             <figure className='h-72'>
-                                <img className='h-full' src="/public/stats-def.png" alt="Estadisticas" />
+                                <img className='h-full' src="/img/stats-def.png" alt="Estadisticas" />
                             </figure>
                         </section>
                     </section>

@@ -12,7 +12,7 @@ function IconPerfil() {
   
   function IconTrainer() {
     return (
-        <img className="h-16 w-15" src="/public/entrenador.png" alt="personal-trainer"/>
+        <img className="h-16 w-15" src="/img/entrenador.png" alt="personal-trainer"/>
     )
   }
   

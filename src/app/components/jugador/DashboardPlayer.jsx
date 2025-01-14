@@ -14,14 +14,14 @@ function DashboardJ() {
                     <h1 className="text-center text-gray-800">Resultado estadístico mensual</h1>
 
                     <section className="flex justify-around mb-5">
-                        <img src="public/velocidad.png" alt="Aumento del 43% en velocidad" className="w-24 h-24" />
-                        <img src="public/resistencia.png" alt="Aumento del 57% en resistencia" className="w-24 h-24" />
-                        <img src="public/fuerza.png" alt="Aumento del 50% en fuerza" className="w-24 h-24" />
-                        <img src="public/reaction.png" alt="Aumento del 40% en velocidad de reacción" className="w-24 h-24" />
+                        <img src="/img/velocidad.png" alt="Aumento del 43% en velocidad" className="w-24 h-24" />
+                        <img src="/img/resistencia.png" alt="Aumento del 57% en resistencia" className="w-24 h-24" />
+                        <img src="/img/fuerza.png" alt="Aumento del 50% en fuerza" className="w-24 h-24" />
+                        <img src="/img/reaction.png" alt="Aumento del 40% en velocidad de reacción" className="w-24 h-24" />
                     </section>
 
                     <section className="flex justify-center mb-5">
-                        <img src="public/estadistica3.png" alt="Gráfico de barras mensuales" className="w-full max-w-[600px]" />
+                        <img src="/img/estadistica3.png" alt="Gráfico de barras mensuales" className="w-full max-w-[600px]" />
                     </section>
 
                     <h2 className="text-center text-gray-800">Mesociclo asignado:</h2>

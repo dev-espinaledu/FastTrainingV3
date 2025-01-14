@@ -6,7 +6,7 @@ function FooterLanding() {
     <footer className="flex w-screen flex-col items-center justify-between h-fit pt-8 gap-8">
         <section className='flex justify-around w-full '>
             <figure>
-                <img src="/public/logotipo.png" alt="" />
+                <img src="/img/logotipo.png" alt="" />
             </figure>
             <section>
                 <ul className='flex text-4xl gap-1'>

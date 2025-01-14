@@ -43,7 +43,7 @@ function ContrasenaRecover2() {
             />
           </div>
         <div className="flex justify-center items-center py-2 h-12 border rounded-lg border-yellow-500">
-            <img className="h-8 text-color mx-4" src="/public/alert-icon.png" alt="" />
+            <img className="h-8 text-color mx-4" src="/img/alert-icon.png" alt="" />
             <p className="text-yellow-600 text-left text-sm" >Al continuar se cerrara sesión en todos los dispositivos</p>
         </div>
           <Link href={"/dashboard-jugador"}>
